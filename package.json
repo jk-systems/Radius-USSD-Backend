@@ -1,0 +1,25 @@
+{
+  "name": "wahudumu-backend-engine",
+  "version": "1.0.0",
+  "description": "ussd engine by jksystems for wahudumu sacco",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "sms",
+    "ussd",
+    "bulky-sms"
+  ],
+  "author": "Joseph Mwadime",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "md5": "^2.3.0",
+    "mongoose": "^6.5.3",
+    "nodemon": "^2.0.19"
+  }
+}
